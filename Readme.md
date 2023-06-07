@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Никита Иванов](https://up.htmlacademy.ru/javascript/29/user/2070551).
-* Наставник: `Неизвестно`.
+- Студент: [Никита Иванов](https://up.htmlacademy.ru/javascript/29/user/2070551).
+- Наставник: [Алексей Васильев](https://htmlacademy.ru/profile/id1353249).
 
 ---
 
