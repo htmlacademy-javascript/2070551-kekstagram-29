@@ -35,13 +35,13 @@ const getRandomInt = (a, b) => {
 // Функция, которая генерирует уникальное число в указанном диапазоне
 
 function getUniqueId(min, max) {
-  const existingNumbers = [];
-  const randomNumber = Math.random() * (max - min + 1) + min; // Генерируем случайное число в заданном диапазоне
-  if (existingNumbers.includes(randomNumber)) { // Проверяем, есть ли уже сгенерированное число в массиве существующих чисел
-    return getUniqueId(min, max); // Если число уже существует, генерируем новое рекурсивно
-  } else {
-    return Math.floor(randomNumber); // Если число уникально, возвращаем его
-  }
+  let num = min;
+
+  return () => {
+    if(num <= max) {
+      return num++;
+    }
+  };
 }
 
 // Функция, которая выбирает случайный элемент массива
